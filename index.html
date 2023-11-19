@@ -1,0 +1,1448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Uniquesports24</title>
+
+  <!-- Tailwind CSS CDN link -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <!-- Bootstrap 5 CDN link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body class="bg-gray-800 text-white font-sans text-center">
+
+<nav class="bg-dark dark:bg-dark-900">
+  <div class="max-w-screen-xl flex items-center justify-between mx-auto p-4">
+    <a href="index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
+        <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">Uniquesports24</span>
+    </a>
+  </div>
+</nav>
+<!-- Search Bar -->
+<div x-data="{ sticky: false }" x-scroll="sticky = window.scrollY > 0" :class="{ 'bg-dark dark:bg-dark-900 shadow-md': sticky }" class="container mx-auto my-6 transition-all duration-300">
+    <form action="http://127.0.0.1:8000/search-fixtures" method="GET" class="flex items-center">
+        <input type="text" name="search" id="search" placeholder="Search..." class="w-full p-2 border border-gray-600 rounded focus:outline-none focus:border-blue-500">
+        <button type="submit" class="ml-2 p-2 bg-blue-500 text-white rounded hover:bg-blue-600 focus:outline-none focus:shadow-outline-blue active:bg-blue-800">
+            <i class="fas fa-search"></i>
+        </button>
+    </form>
+</div>
+
+            <div class="mb-8 p-6 bg-gray-700 rounded shadow-md two-column" style="margin: 50px;">
+            <div class="left-column">
+                <p class="text-xl text-white font-bold">Fixture ID: 216268</p>
+                <p class="text-gray-400">Sport: 1</p>
+                <p class="text-gray-400">League: 271</p>
+
+                <div class="flex justify-center items-center mt-5">
+                    <div class="flex items-center space-x-4">
+                                                                                    <img src="https://cdn.sportmonks.com/images/soccer/teams/27/1371.png" alt="Esbjerg Image" class="w-12 h-12 rounded-full">
+                                                                                                                <img src="https://cdn.sportmonks.com/images/soccer/teams/29/1789.png" alt="OB Image" class="w-12 h-12 rounded-full">
+                                                                        </div>
+                </div>
+
+                <div class="mt-4">
+                                            <div>
+                            <!-- Include other event details as needed -->
+                            <p class="text-white font-bold">2023-11-18 12:00:00</p>
+                        </div>
+                                            <div>
+                            <!-- Include other event details as needed -->
+                            <p class="text-white font-bold">2023-11-12 17:00:00</p>
+                        </div>
+                                    </div>
+            </div>
+
+            <div class="right-column">
+                <p class="text-white font-bold mt-4">Team Information:</p>
+
+                                    <div class="flex items-center mt-2 cursor-pointer">
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/27/1371.png" alt="Esbjerg" class="w-8 h-8 mr-2 rounded-full">
+                        <p class="text-white">Esbjerg</p>
+                    </div>
+                    <!-- Additional Information -->
+                    <div class="additional-info hidden bg-gray-800 p-2 rounded mt-2">
+                        <p class="text-white">Founded: 1924</p>
+                        <p class="text-white">Name: Esbjerg</p>
+                        <p class="text-white">Short: ESB</p>
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/27/1371.png" alt="Esbjerg">
+                        <p class="text-white">Last played at: 2023-11-18 12:00:00</p>
+                    </div>
+                                    <div class="flex items-center mt-2 cursor-pointer">
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/29/1789.png" alt="OB" class="w-8 h-8 mr-2 rounded-full">
+                        <p class="text-white">OB</p>
+                    </div>
+                    <!-- Additional Information -->
+                    <div class="additional-info hidden bg-gray-800 p-2 rounded mt-2">
+                        <p class="text-white">Founded: 1889</p>
+                        <p class="text-white">Name: OB</p>
+                        <p class="text-white">Short: ODE</p>
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/29/1789.png" alt="OB">
+                        <p class="text-white">Last played at: 2023-11-12 17:00:00</p>
+                    </div>
+                                <button class="show-more-btn text-white mt-4" style="background-color: red; color: white; padding: 15px; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                border-radius:30px">Show More</button>
+            </div>
+        </div>
+            <div class="mb-8 p-6 bg-gray-700 rounded shadow-md two-column" style="margin: 50px;">
+            <div class="left-column">
+                <p class="text-xl text-white font-bold">Fixture ID: 216269</p>
+                <p class="text-gray-400">Sport: 1</p>
+                <p class="text-gray-400">League: 271</p>
+
+                <div class="flex justify-center items-center mt-5">
+                    <div class="flex items-center space-x-4">
+                                                                                    <img src="https://cdn.sportmonks.com/images/soccer/teams/28/1020.png" alt="AaB Image" class="w-12 h-12 rounded-full">
+                                                                                                                <img src="https://cdn.sportmonks.com/images/soccer/teams/21/85.png" alt="FC Copenhagen Image" class="w-12 h-12 rounded-full">
+                                                                        </div>
+                </div>
+
+                <div class="mt-4">
+                                            <div>
+                            <!-- Include other event details as needed -->
+                            <p class="text-white font-bold">2023-11-12 12:00:00</p>
+                        </div>
+                                            <div>
+                            <!-- Include other event details as needed -->
+                            <p class="text-white font-bold">2023-11-12 11:00:00</p>
+                        </div>
+                                    </div>
+            </div>
+
+            <div class="right-column">
+                <p class="text-white font-bold mt-4">Team Information:</p>
+
+                                    <div class="flex items-center mt-2 cursor-pointer">
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/28/1020.png" alt="AaB" class="w-8 h-8 mr-2 rounded-full">
+                        <p class="text-white">AaB</p>
+                    </div>
+                    <!-- Additional Information -->
+                    <div class="additional-info hidden bg-gray-800 p-2 rounded mt-2">
+                        <p class="text-white">Founded: 1885</p>
+                        <p class="text-white">Name: AaB</p>
+                        <p class="text-white">Short: AAB</p>
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/28/1020.png" alt="AaB">
+                        <p class="text-white">Last played at: 2023-11-12 12:00:00</p>
+                    </div>
+                                    <div class="flex items-center mt-2 cursor-pointer">
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/21/85.png" alt="FC Copenhagen" class="w-8 h-8 mr-2 rounded-full">
+                        <p class="text-white">FC Copenhagen</p>
+                    </div>
+                    <!-- Additional Information -->
+                    <div class="additional-info hidden bg-gray-800 p-2 rounded mt-2">
+                        <p class="text-white">Founded: 1992</p>
+                        <p class="text-white">Name: FC Copenhagen</p>
+                        <p class="text-white">Short: COP</p>
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/21/85.png" alt="FC Copenhagen">
+                        <p class="text-white">Last played at: 2023-11-12 11:00:00</p>
+                    </div>
+                                <button class="show-more-btn text-white mt-4" style="background-color: red; color: white; padding: 15px; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                border-radius:30px">Show More</button>
+            </div>
+        </div>
+            <div class="mb-8 p-6 bg-gray-700 rounded shadow-md two-column" style="margin: 50px;">
+            <div class="left-column">
+                <p class="text-xl text-white font-bold">Fixture ID: 216270</p>
+                <p class="text-gray-400">Sport: 1</p>
+                <p class="text-gray-400">League: 271</p>
+
+                <div class="flex justify-center items-center mt-5">
+                    <div class="flex items-center space-x-4">
+                                                                                    <img src="https://cdn.sportmonks.com/images/soccer/teams/22/86.png" alt="Silkeborg Image" class="w-12 h-12 rounded-full">
+                                                                                                                <img src="https://cdn.sportmonks.com/images/soccer/teams/25/2905.png" alt="AGF Image" class="w-12 h-12 rounded-full">
+                                                                        </div>
+                </div>
+
+                <div class="mt-4">
+                                            <div>
+                            <!-- Include other event details as needed -->
+                            <p class="text-white font-bold">2023-11-10 18:00:00</p>
+                        </div>
+                                            <div>
+                            <!-- Include other event details as needed -->
+                            <p class="text-white font-bold">2023-11-12 19:00:00</p>
+                        </div>
+                                    </div>
+            </div>
+
+            <div class="right-column">
+                <p class="text-white font-bold mt-4">Team Information:</p>
+
+                                    <div class="flex items-center mt-2 cursor-pointer">
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/22/86.png" alt="Silkeborg" class="w-8 h-8 mr-2 rounded-full">
+                        <p class="text-white">Silkeborg</p>
+                    </div>
+                    <!-- Additional Information -->
+                    <div class="additional-info hidden bg-gray-800 p-2 rounded mt-2">
+                        <p class="text-white">Founded: 1917</p>
+                        <p class="text-white">Name: Silkeborg</p>
+                        <p class="text-white">Short: SIL</p>
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/22/86.png" alt="Silkeborg">
+                        <p class="text-white">Last played at: 2023-11-10 18:00:00</p>
+                    </div>
+                                    <div class="flex items-center mt-2 cursor-pointer">
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/25/2905.png" alt="AGF" class="w-8 h-8 mr-2 rounded-full">
+                        <p class="text-white">AGF</p>
+                    </div>
+                    <!-- Additional Information -->
+                    <div class="additional-info hidden bg-gray-800 p-2 rounded mt-2">
+                        <p class="text-white">Founded: 1902</p>
+                        <p class="text-white">Name: AGF</p>
+                        <p class="text-white">Short: AGF</p>
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/25/2905.png" alt="AGF">
+                        <p class="text-white">Last played at: 2023-11-12 19:00:00</p>
+                    </div>
+                                <button class="show-more-btn text-white mt-4" style="background-color: red; color: white; padding: 15px; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                border-radius:30px">Show More</button>
+            </div>
+        </div>
+            <div class="mb-8 p-6 bg-gray-700 rounded shadow-md two-column" style="margin: 50px;">
+            <div class="left-column">
+                <p class="text-xl text-white font-bold">Fixture ID: 216271</p>
+                <p class="text-gray-400">Sport: 1</p>
+                <p class="text-gray-400">League: 271</p>
+
+                <div class="flex justify-center items-center mt-5">
+                    <div class="flex items-center space-x-4">
+                                                                                    <img src="https://cdn.sportmonks.com/images/soccer/teams/26/2394.png" alt="Nordsjælland Image" class="w-12 h-12 rounded-full">
+                                                                                                                <img src="https://cdn.sportmonks.com/images/soccer/teams/6/390.png" alt="SønderjyskE Image" class="w-12 h-12 rounded-full">
+                                                                        </div>
+                </div>
+
+                <div class="mt-4">
+                                            <div>
+                            <!-- Include other event details as needed -->
+                            <p class="text-white font-bold">2023-11-12 15:00:00</p>
+                        </div>
+                                            <div>
+                            <!-- Include other event details as needed -->
+                            <p class="text-white font-bold">2023-11-10 18:00:00</p>
+                        </div>
+                                    </div>
+            </div>
+
+            <div class="right-column">
+                <p class="text-white font-bold mt-4">Team Information:</p>
+
+                                    <div class="flex items-center mt-2 cursor-pointer">
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/26/2394.png" alt="Nordsjælland" class="w-8 h-8 mr-2 rounded-full">
+                        <p class="text-white">Nordsjælland</p>
+                    </div>
+                    <!-- Additional Information -->
+                    <div class="additional-info hidden bg-gray-800 p-2 rounded mt-2">
+                        <p class="text-white">Founded: 2003</p>
+                        <p class="text-white">Name: Nordsjælland</p>
+                        <p class="text-white">Short: FCN</p>
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/26/2394.png" alt="Nordsjælland">
+                        <p class="text-white">Last played at: 2023-11-12 15:00:00</p>
+                    </div>
+                                    <div class="flex items-center mt-2 cursor-pointer">
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/6/390.png" alt="SønderjyskE" class="w-8 h-8 mr-2 rounded-full">
+                        <p class="text-white">SønderjyskE</p>
+                    </div>
+                    <!-- Additional Information -->
+                    <div class="additional-info hidden bg-gray-800 p-2 rounded mt-2">
+                        <p class="text-white">Founded: 2004</p>
+                        <p class="text-white">Name: SønderjyskE</p>
+                        <p class="text-white">Short: SON</p>
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/6/390.png" alt="SønderjyskE">
+                        <p class="text-white">Last played at: 2023-11-10 18:00:00</p>
+                    </div>
+                                <button class="show-more-btn text-white mt-4" style="background-color: red; color: white; padding: 15px; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                border-radius:30px">Show More</button>
+            </div>
+        </div>
+            <div class="mb-8 p-6 bg-gray-700 rounded shadow-md two-column" style="margin: 50px;">
+            <div class="left-column">
+                <p class="text-xl text-white font-bold">Fixture ID: 216272</p>
+                <p class="text-gray-400">Sport: 1</p>
+                <p class="text-gray-400">League: 271</p>
+
+                <div class="flex justify-center items-center mt-5">
+                    <div class="flex items-center space-x-4">
+                                                                                    <img src="https://cdn.sportmonks.com/images/soccer/teams/19/211.png" alt="Horsens Image" class="w-12 h-12 rounded-full">
+                                                                                                                <img src="https://cdn.sportmonks.com/images/soccer/teams/15/2447.png" alt="Viborg Image" class="w-12 h-12 rounded-full">
+                                                                        </div>
+                </div>
+
+                <div class="mt-4">
+                                            <div>
+                            <!-- Include other event details as needed -->
+                            <p class="text-white font-bold">2023-11-10 18:00:00</p>
+                        </div>
+                                            <div>
+                            <!-- Include other event details as needed -->
+                            <p class="text-white font-bold">2023-11-12 19:00:00</p>
+                        </div>
+                                    </div>
+            </div>
+
+            <div class="right-column">
+                <p class="text-white font-bold mt-4">Team Information:</p>
+
+                                    <div class="flex items-center mt-2 cursor-pointer">
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/19/211.png" alt="Horsens" class="w-8 h-8 mr-2 rounded-full">
+                        <p class="text-white">Horsens</p>
+                    </div>
+                    <!-- Additional Information -->
+                    <div class="additional-info hidden bg-gray-800 p-2 rounded mt-2">
+                        <p class="text-white">Founded: 1994</p>
+                        <p class="text-white">Name: Horsens</p>
+                        <p class="text-white">Short: ACH</p>
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/19/211.png" alt="Horsens">
+                        <p class="text-white">Last played at: 2023-11-10 18:00:00</p>
+                    </div>
+                                    <div class="flex items-center mt-2 cursor-pointer">
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/15/2447.png" alt="Viborg" class="w-8 h-8 mr-2 rounded-full">
+                        <p class="text-white">Viborg</p>
+                    </div>
+                    <!-- Additional Information -->
+                    <div class="additional-info hidden bg-gray-800 p-2 rounded mt-2">
+                        <p class="text-white">Founded: 1896</p>
+                        <p class="text-white">Name: Viborg</p>
+                        <p class="text-white">Short: </p>
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/15/2447.png" alt="Viborg">
+                        <p class="text-white">Last played at: 2023-11-12 19:00:00</p>
+                    </div>
+                                <button class="show-more-btn text-white mt-4" style="background-color: red; color: white; padding: 15px; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                border-radius:30px">Show More</button>
+            </div>
+        </div>
+            <div class="mb-8 p-6 bg-gray-700 rounded shadow-md two-column" style="margin: 50px;">
+            <div class="left-column">
+                <p class="text-xl text-white font-bold">Fixture ID: 216273</p>
+                <p class="text-gray-400">Sport: 1</p>
+                <p class="text-gray-400">League: 271</p>
+
+                <div class="flex justify-center items-center mt-5">
+                    <div class="flex items-center space-x-4">
+                                                                                    <img src="https://cdn.sportmonks.com/images/soccer/teams/11/939.png" alt="Midtjylland Image" class="w-12 h-12 rounded-full">
+                                                                                                                <img src="https://cdn.sportmonks.com/images/soccer/teams/5/293.png" alt="Brøndby Image" class="w-12 h-12 rounded-full">
+                                                                        </div>
+                </div>
+
+                <div class="mt-4">
+                                            <div>
+                            <!-- Include other event details as needed -->
+                            <p class="text-white font-bold">2023-11-12 15:00:00</p>
+                        </div>
+                                            <div>
+                            <!-- Include other event details as needed -->
+                            <p class="text-white font-bold">2023-11-12 11:00:00</p>
+                        </div>
+                                    </div>
+            </div>
+
+            <div class="right-column">
+                <p class="text-white font-bold mt-4">Team Information:</p>
+
+                                    <div class="flex items-center mt-2 cursor-pointer">
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/11/939.png" alt="Midtjylland" class="w-8 h-8 mr-2 rounded-full">
+                        <p class="text-white">Midtjylland</p>
+                    </div>
+                    <!-- Additional Information -->
+                    <div class="additional-info hidden bg-gray-800 p-2 rounded mt-2">
+                        <p class="text-white">Founded: 1999</p>
+                        <p class="text-white">Name: Midtjylland</p>
+                        <p class="text-white">Short: FCM</p>
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/11/939.png" alt="Midtjylland">
+                        <p class="text-white">Last played at: 2023-11-12 15:00:00</p>
+                    </div>
+                                    <div class="flex items-center mt-2 cursor-pointer">
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/5/293.png" alt="Brøndby" class="w-8 h-8 mr-2 rounded-full">
+                        <p class="text-white">Brøndby</p>
+                    </div>
+                    <!-- Additional Information -->
+                    <div class="additional-info hidden bg-gray-800 p-2 rounded mt-2">
+                        <p class="text-white">Founded: 1964</p>
+                        <p class="text-white">Name: Brøndby</p>
+                        <p class="text-white">Short: BIF</p>
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/5/293.png" alt="Brøndby">
+                        <p class="text-white">Last played at: 2023-11-12 11:00:00</p>
+                    </div>
+                                <button class="show-more-btn text-white mt-4" style="background-color: red; color: white; padding: 15px; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                border-radius:30px">Show More</button>
+            </div>
+        </div>
+            <div class="mb-8 p-6 bg-gray-700 rounded shadow-md two-column" style="margin: 50px;">
+            <div class="left-column">
+                <p class="text-xl text-white font-bold">Fixture ID: 216274</p>
+                <p class="text-gray-400">Sport: 1</p>
+                <p class="text-gray-400">League: 271</p>
+
+                <div class="flex justify-center items-center mt-5">
+                    <div class="flex items-center space-x-4">
+                                                                                    <img src="https://cdn.sportmonks.com/images/soccer/teams/5/293.png" alt="Brøndby Image" class="w-12 h-12 rounded-full">
+                                                                                                                <img src="https://cdn.sportmonks.com/images/soccer/teams/22/86.png" alt="Silkeborg Image" class="w-12 h-12 rounded-full">
+                                                                        </div>
+                </div>
+
+                <div class="mt-4">
+                                            <div>
+                            <!-- Include other event details as needed -->
+                            <p class="text-white font-bold">2023-11-12 11:00:00</p>
+                        </div>
+                                            <div>
+                            <!-- Include other event details as needed -->
+                            <p class="text-white font-bold">2023-11-10 18:00:00</p>
+                        </div>
+                                    </div>
+            </div>
+
+            <div class="right-column">
+                <p class="text-white font-bold mt-4">Team Information:</p>
+
+                                    <div class="flex items-center mt-2 cursor-pointer">
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/5/293.png" alt="Brøndby" class="w-8 h-8 mr-2 rounded-full">
+                        <p class="text-white">Brøndby</p>
+                    </div>
+                    <!-- Additional Information -->
+                    <div class="additional-info hidden bg-gray-800 p-2 rounded mt-2">
+                        <p class="text-white">Founded: 1964</p>
+                        <p class="text-white">Name: Brøndby</p>
+                        <p class="text-white">Short: BIF</p>
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/5/293.png" alt="Brøndby">
+                        <p class="text-white">Last played at: 2023-11-12 11:00:00</p>
+                    </div>
+                                    <div class="flex items-center mt-2 cursor-pointer">
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/22/86.png" alt="Silkeborg" class="w-8 h-8 mr-2 rounded-full">
+                        <p class="text-white">Silkeborg</p>
+                    </div>
+                    <!-- Additional Information -->
+                    <div class="additional-info hidden bg-gray-800 p-2 rounded mt-2">
+                        <p class="text-white">Founded: 1917</p>
+                        <p class="text-white">Name: Silkeborg</p>
+                        <p class="text-white">Short: SIL</p>
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/22/86.png" alt="Silkeborg">
+                        <p class="text-white">Last played at: 2023-11-10 18:00:00</p>
+                    </div>
+                                <button class="show-more-btn text-white mt-4" style="background-color: red; color: white; padding: 15px; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                border-radius:30px">Show More</button>
+            </div>
+        </div>
+            <div class="mb-8 p-6 bg-gray-700 rounded shadow-md two-column" style="margin: 50px;">
+            <div class="left-column">
+                <p class="text-xl text-white font-bold">Fixture ID: 216275</p>
+                <p class="text-gray-400">Sport: 1</p>
+                <p class="text-gray-400">League: 271</p>
+
+                <div class="flex justify-center items-center mt-5">
+                    <div class="flex items-center space-x-4">
+                                                                                    <img src="https://cdn.sportmonks.com/images/soccer/teams/15/2447.png" alt="Viborg Image" class="w-12 h-12 rounded-full">
+                                                                                                                <img src="https://cdn.sportmonks.com/images/soccer/teams/26/2394.png" alt="Nordsjælland Image" class="w-12 h-12 rounded-full">
+                                                                        </div>
+                </div>
+
+                <div class="mt-4">
+                                            <div>
+                            <!-- Include other event details as needed -->
+                            <p class="text-white font-bold">2023-11-12 19:00:00</p>
+                        </div>
+                                            <div>
+                            <!-- Include other event details as needed -->
+                            <p class="text-white font-bold">2023-11-12 15:00:00</p>
+                        </div>
+                                    </div>
+            </div>
+
+            <div class="right-column">
+                <p class="text-white font-bold mt-4">Team Information:</p>
+
+                                    <div class="flex items-center mt-2 cursor-pointer">
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/15/2447.png" alt="Viborg" class="w-8 h-8 mr-2 rounded-full">
+                        <p class="text-white">Viborg</p>
+                    </div>
+                    <!-- Additional Information -->
+                    <div class="additional-info hidden bg-gray-800 p-2 rounded mt-2">
+                        <p class="text-white">Founded: 1896</p>
+                        <p class="text-white">Name: Viborg</p>
+                        <p class="text-white">Short: </p>
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/15/2447.png" alt="Viborg">
+                        <p class="text-white">Last played at: 2023-11-12 19:00:00</p>
+                    </div>
+                                    <div class="flex items-center mt-2 cursor-pointer">
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/26/2394.png" alt="Nordsjælland" class="w-8 h-8 mr-2 rounded-full">
+                        <p class="text-white">Nordsjælland</p>
+                    </div>
+                    <!-- Additional Information -->
+                    <div class="additional-info hidden bg-gray-800 p-2 rounded mt-2">
+                        <p class="text-white">Founded: 2003</p>
+                        <p class="text-white">Name: Nordsjælland</p>
+                        <p class="text-white">Short: FCN</p>
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/26/2394.png" alt="Nordsjælland">
+                        <p class="text-white">Last played at: 2023-11-12 15:00:00</p>
+                    </div>
+                                <button class="show-more-btn text-white mt-4" style="background-color: red; color: white; padding: 15px; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                border-radius:30px">Show More</button>
+            </div>
+        </div>
+            <div class="mb-8 p-6 bg-gray-700 rounded shadow-md two-column" style="margin: 50px;">
+            <div class="left-column">
+                <p class="text-xl text-white font-bold">Fixture ID: 216276</p>
+                <p class="text-gray-400">Sport: 1</p>
+                <p class="text-gray-400">League: 271</p>
+
+                <div class="flex justify-center items-center mt-5">
+                    <div class="flex items-center space-x-4">
+                                                                                    <img src="https://cdn.sportmonks.com/images/soccer/teams/6/390.png" alt="SønderjyskE Image" class="w-12 h-12 rounded-full">
+                                                                                                                <img src="https://cdn.sportmonks.com/images/soccer/teams/25/2905.png" alt="AGF Image" class="w-12 h-12 rounded-full">
+                                                                        </div>
+                </div>
+
+                <div class="mt-4">
+                                            <div>
+                            <!-- Include other event details as needed -->
+                            <p class="text-white font-bold">2023-11-10 18:00:00</p>
+                        </div>
+                                            <div>
+                            <!-- Include other event details as needed -->
+                            <p class="text-white font-bold">2023-11-12 19:00:00</p>
+                        </div>
+                                    </div>
+            </div>
+
+            <div class="right-column">
+                <p class="text-white font-bold mt-4">Team Information:</p>
+
+                                    <div class="flex items-center mt-2 cursor-pointer">
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/6/390.png" alt="SønderjyskE" class="w-8 h-8 mr-2 rounded-full">
+                        <p class="text-white">SønderjyskE</p>
+                    </div>
+                    <!-- Additional Information -->
+                    <div class="additional-info hidden bg-gray-800 p-2 rounded mt-2">
+                        <p class="text-white">Founded: 2004</p>
+                        <p class="text-white">Name: SønderjyskE</p>
+                        <p class="text-white">Short: SON</p>
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/6/390.png" alt="SønderjyskE">
+                        <p class="text-white">Last played at: 2023-11-10 18:00:00</p>
+                    </div>
+                                    <div class="flex items-center mt-2 cursor-pointer">
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/25/2905.png" alt="AGF" class="w-8 h-8 mr-2 rounded-full">
+                        <p class="text-white">AGF</p>
+                    </div>
+                    <!-- Additional Information -->
+                    <div class="additional-info hidden bg-gray-800 p-2 rounded mt-2">
+                        <p class="text-white">Founded: 1902</p>
+                        <p class="text-white">Name: AGF</p>
+                        <p class="text-white">Short: AGF</p>
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/25/2905.png" alt="AGF">
+                        <p class="text-white">Last played at: 2023-11-12 19:00:00</p>
+                    </div>
+                                <button class="show-more-btn text-white mt-4" style="background-color: red; color: white; padding: 15px; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                border-radius:30px">Show More</button>
+            </div>
+        </div>
+            <div class="mb-8 p-6 bg-gray-700 rounded shadow-md two-column" style="margin: 50px;">
+            <div class="left-column">
+                <p class="text-xl text-white font-bold">Fixture ID: 216277</p>
+                <p class="text-gray-400">Sport: 1</p>
+                <p class="text-gray-400">League: 271</p>
+
+                <div class="flex justify-center items-center mt-5">
+                    <div class="flex items-center space-x-4">
+                                                                                    <img src="https://cdn.sportmonks.com/images/soccer/teams/29/1789.png" alt="OB Image" class="w-12 h-12 rounded-full">
+                                                                                                                <img src="https://cdn.sportmonks.com/images/soccer/teams/28/1020.png" alt="AaB Image" class="w-12 h-12 rounded-full">
+                                                                        </div>
+                </div>
+
+                <div class="mt-4">
+                                            <div>
+                            <!-- Include other event details as needed -->
+                            <p class="text-white font-bold">2023-11-12 17:00:00</p>
+                        </div>
+                                            <div>
+                            <!-- Include other event details as needed -->
+                            <p class="text-white font-bold">2023-11-12 12:00:00</p>
+                        </div>
+                                    </div>
+            </div>
+
+            <div class="right-column">
+                <p class="text-white font-bold mt-4">Team Information:</p>
+
+                                    <div class="flex items-center mt-2 cursor-pointer">
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/29/1789.png" alt="OB" class="w-8 h-8 mr-2 rounded-full">
+                        <p class="text-white">OB</p>
+                    </div>
+                    <!-- Additional Information -->
+                    <div class="additional-info hidden bg-gray-800 p-2 rounded mt-2">
+                        <p class="text-white">Founded: 1889</p>
+                        <p class="text-white">Name: OB</p>
+                        <p class="text-white">Short: ODE</p>
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/29/1789.png" alt="OB">
+                        <p class="text-white">Last played at: 2023-11-12 17:00:00</p>
+                    </div>
+                                    <div class="flex items-center mt-2 cursor-pointer">
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/28/1020.png" alt="AaB" class="w-8 h-8 mr-2 rounded-full">
+                        <p class="text-white">AaB</p>
+                    </div>
+                    <!-- Additional Information -->
+                    <div class="additional-info hidden bg-gray-800 p-2 rounded mt-2">
+                        <p class="text-white">Founded: 1885</p>
+                        <p class="text-white">Name: AaB</p>
+                        <p class="text-white">Short: AAB</p>
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/28/1020.png" alt="AaB">
+                        <p class="text-white">Last played at: 2023-11-12 12:00:00</p>
+                    </div>
+                                <button class="show-more-btn text-white mt-4" style="background-color: red; color: white; padding: 15px; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                border-radius:30px">Show More</button>
+            </div>
+        </div>
+            <div class="mb-8 p-6 bg-gray-700 rounded shadow-md two-column" style="margin: 50px;">
+            <div class="left-column">
+                <p class="text-xl text-white font-bold">Fixture ID: 216278</p>
+                <p class="text-gray-400">Sport: 1</p>
+                <p class="text-gray-400">League: 271</p>
+
+                <div class="flex justify-center items-center mt-5">
+                    <div class="flex items-center space-x-4">
+                                                                                    <img src="https://cdn.sportmonks.com/images/soccer/teams/27/1371.png" alt="Esbjerg Image" class="w-12 h-12 rounded-full">
+                                                                                                                <img src="https://cdn.sportmonks.com/images/soccer/teams/11/939.png" alt="Midtjylland Image" class="w-12 h-12 rounded-full">
+                                                                        </div>
+                </div>
+
+                <div class="mt-4">
+                                            <div>
+                            <!-- Include other event details as needed -->
+                            <p class="text-white font-bold">2023-11-18 12:00:00</p>
+                        </div>
+                                            <div>
+                            <!-- Include other event details as needed -->
+                            <p class="text-white font-bold">2023-11-12 15:00:00</p>
+                        </div>
+                                    </div>
+            </div>
+
+            <div class="right-column">
+                <p class="text-white font-bold mt-4">Team Information:</p>
+
+                                    <div class="flex items-center mt-2 cursor-pointer">
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/27/1371.png" alt="Esbjerg" class="w-8 h-8 mr-2 rounded-full">
+                        <p class="text-white">Esbjerg</p>
+                    </div>
+                    <!-- Additional Information -->
+                    <div class="additional-info hidden bg-gray-800 p-2 rounded mt-2">
+                        <p class="text-white">Founded: 1924</p>
+                        <p class="text-white">Name: Esbjerg</p>
+                        <p class="text-white">Short: ESB</p>
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/27/1371.png" alt="Esbjerg">
+                        <p class="text-white">Last played at: 2023-11-18 12:00:00</p>
+                    </div>
+                                    <div class="flex items-center mt-2 cursor-pointer">
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/11/939.png" alt="Midtjylland" class="w-8 h-8 mr-2 rounded-full">
+                        <p class="text-white">Midtjylland</p>
+                    </div>
+                    <!-- Additional Information -->
+                    <div class="additional-info hidden bg-gray-800 p-2 rounded mt-2">
+                        <p class="text-white">Founded: 1999</p>
+                        <p class="text-white">Name: Midtjylland</p>
+                        <p class="text-white">Short: FCM</p>
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/11/939.png" alt="Midtjylland">
+                        <p class="text-white">Last played at: 2023-11-12 15:00:00</p>
+                    </div>
+                                <button class="show-more-btn text-white mt-4" style="background-color: red; color: white; padding: 15px; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                border-radius:30px">Show More</button>
+            </div>
+        </div>
+            <div class="mb-8 p-6 bg-gray-700 rounded shadow-md two-column" style="margin: 50px;">
+            <div class="left-column">
+                <p class="text-xl text-white font-bold">Fixture ID: 216279</p>
+                <p class="text-gray-400">Sport: 1</p>
+                <p class="text-gray-400">League: 271</p>
+
+                <div class="flex justify-center items-center mt-5">
+                    <div class="flex items-center space-x-4">
+                                                                                    <img src="https://cdn.sportmonks.com/images/soccer/teams/21/85.png" alt="FC Copenhagen Image" class="w-12 h-12 rounded-full">
+                                                                                                                <img src="https://cdn.sportmonks.com/images/soccer/teams/19/211.png" alt="Horsens Image" class="w-12 h-12 rounded-full">
+                                                                        </div>
+                </div>
+
+                <div class="mt-4">
+                                            <div>
+                            <!-- Include other event details as needed -->
+                            <p class="text-white font-bold">2023-11-12 11:00:00</p>
+                        </div>
+                                            <div>
+                            <!-- Include other event details as needed -->
+                            <p class="text-white font-bold">2023-11-10 18:00:00</p>
+                        </div>
+                                    </div>
+            </div>
+
+            <div class="right-column">
+                <p class="text-white font-bold mt-4">Team Information:</p>
+
+                                    <div class="flex items-center mt-2 cursor-pointer">
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/21/85.png" alt="FC Copenhagen" class="w-8 h-8 mr-2 rounded-full">
+                        <p class="text-white">FC Copenhagen</p>
+                    </div>
+                    <!-- Additional Information -->
+                    <div class="additional-info hidden bg-gray-800 p-2 rounded mt-2">
+                        <p class="text-white">Founded: 1992</p>
+                        <p class="text-white">Name: FC Copenhagen</p>
+                        <p class="text-white">Short: COP</p>
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/21/85.png" alt="FC Copenhagen">
+                        <p class="text-white">Last played at: 2023-11-12 11:00:00</p>
+                    </div>
+                                    <div class="flex items-center mt-2 cursor-pointer">
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/19/211.png" alt="Horsens" class="w-8 h-8 mr-2 rounded-full">
+                        <p class="text-white">Horsens</p>
+                    </div>
+                    <!-- Additional Information -->
+                    <div class="additional-info hidden bg-gray-800 p-2 rounded mt-2">
+                        <p class="text-white">Founded: 1994</p>
+                        <p class="text-white">Name: Horsens</p>
+                        <p class="text-white">Short: ACH</p>
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/19/211.png" alt="Horsens">
+                        <p class="text-white">Last played at: 2023-11-10 18:00:00</p>
+                    </div>
+                                <button class="show-more-btn text-white mt-4" style="background-color: red; color: white; padding: 15px; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                border-radius:30px">Show More</button>
+            </div>
+        </div>
+            <div class="mb-8 p-6 bg-gray-700 rounded shadow-md two-column" style="margin: 50px;">
+            <div class="left-column">
+                <p class="text-xl text-white font-bold">Fixture ID: 216280</p>
+                <p class="text-gray-400">Sport: 1</p>
+                <p class="text-gray-400">League: 271</p>
+
+                <div class="flex justify-center items-center mt-5">
+                    <div class="flex items-center space-x-4">
+                                                                                    <img src="https://cdn.sportmonks.com/images/soccer/teams/28/1020.png" alt="AaB Image" class="w-12 h-12 rounded-full">
+                                                                                                                <img src="https://cdn.sportmonks.com/images/soccer/teams/11/939.png" alt="Midtjylland Image" class="w-12 h-12 rounded-full">
+                                                                        </div>
+                </div>
+
+                <div class="mt-4">
+                                            <div>
+                            <!-- Include other event details as needed -->
+                            <p class="text-white font-bold">2023-11-12 12:00:00</p>
+                        </div>
+                                            <div>
+                            <!-- Include other event details as needed -->
+                            <p class="text-white font-bold">2023-11-12 15:00:00</p>
+                        </div>
+                                    </div>
+            </div>
+
+            <div class="right-column">
+                <p class="text-white font-bold mt-4">Team Information:</p>
+
+                                    <div class="flex items-center mt-2 cursor-pointer">
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/28/1020.png" alt="AaB" class="w-8 h-8 mr-2 rounded-full">
+                        <p class="text-white">AaB</p>
+                    </div>
+                    <!-- Additional Information -->
+                    <div class="additional-info hidden bg-gray-800 p-2 rounded mt-2">
+                        <p class="text-white">Founded: 1885</p>
+                        <p class="text-white">Name: AaB</p>
+                        <p class="text-white">Short: AAB</p>
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/28/1020.png" alt="AaB">
+                        <p class="text-white">Last played at: 2023-11-12 12:00:00</p>
+                    </div>
+                                    <div class="flex items-center mt-2 cursor-pointer">
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/11/939.png" alt="Midtjylland" class="w-8 h-8 mr-2 rounded-full">
+                        <p class="text-white">Midtjylland</p>
+                    </div>
+                    <!-- Additional Information -->
+                    <div class="additional-info hidden bg-gray-800 p-2 rounded mt-2">
+                        <p class="text-white">Founded: 1999</p>
+                        <p class="text-white">Name: Midtjylland</p>
+                        <p class="text-white">Short: FCM</p>
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/11/939.png" alt="Midtjylland">
+                        <p class="text-white">Last played at: 2023-11-12 15:00:00</p>
+                    </div>
+                                <button class="show-more-btn text-white mt-4" style="background-color: red; color: white; padding: 15px; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                border-radius:30px">Show More</button>
+            </div>
+        </div>
+            <div class="mb-8 p-6 bg-gray-700 rounded shadow-md two-column" style="margin: 50px;">
+            <div class="left-column">
+                <p class="text-xl text-white font-bold">Fixture ID: 216281</p>
+                <p class="text-gray-400">Sport: 1</p>
+                <p class="text-gray-400">League: 271</p>
+
+                <div class="flex justify-center items-center mt-5">
+                    <div class="flex items-center space-x-4">
+                                                                                    <img src="https://cdn.sportmonks.com/images/soccer/teams/22/86.png" alt="Silkeborg Image" class="w-12 h-12 rounded-full">
+                                                                                                                <img src="https://cdn.sportmonks.com/images/soccer/teams/6/390.png" alt="SønderjyskE Image" class="w-12 h-12 rounded-full">
+                                                                        </div>
+                </div>
+
+                <div class="mt-4">
+                                            <div>
+                            <!-- Include other event details as needed -->
+                            <p class="text-white font-bold">2023-11-10 18:00:00</p>
+                        </div>
+                                            <div>
+                            <!-- Include other event details as needed -->
+                            <p class="text-white font-bold">2023-11-10 18:00:00</p>
+                        </div>
+                                    </div>
+            </div>
+
+            <div class="right-column">
+                <p class="text-white font-bold mt-4">Team Information:</p>
+
+                                    <div class="flex items-center mt-2 cursor-pointer">
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/22/86.png" alt="Silkeborg" class="w-8 h-8 mr-2 rounded-full">
+                        <p class="text-white">Silkeborg</p>
+                    </div>
+                    <!-- Additional Information -->
+                    <div class="additional-info hidden bg-gray-800 p-2 rounded mt-2">
+                        <p class="text-white">Founded: 1917</p>
+                        <p class="text-white">Name: Silkeborg</p>
+                        <p class="text-white">Short: SIL</p>
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/22/86.png" alt="Silkeborg">
+                        <p class="text-white">Last played at: 2023-11-10 18:00:00</p>
+                    </div>
+                                    <div class="flex items-center mt-2 cursor-pointer">
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/6/390.png" alt="SønderjyskE" class="w-8 h-8 mr-2 rounded-full">
+                        <p class="text-white">SønderjyskE</p>
+                    </div>
+                    <!-- Additional Information -->
+                    <div class="additional-info hidden bg-gray-800 p-2 rounded mt-2">
+                        <p class="text-white">Founded: 2004</p>
+                        <p class="text-white">Name: SønderjyskE</p>
+                        <p class="text-white">Short: SON</p>
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/6/390.png" alt="SønderjyskE">
+                        <p class="text-white">Last played at: 2023-11-10 18:00:00</p>
+                    </div>
+                                <button class="show-more-btn text-white mt-4" style="background-color: red; color: white; padding: 15px; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                border-radius:30px">Show More</button>
+            </div>
+        </div>
+            <div class="mb-8 p-6 bg-gray-700 rounded shadow-md two-column" style="margin: 50px;">
+            <div class="left-column">
+                <p class="text-xl text-white font-bold">Fixture ID: 216282</p>
+                <p class="text-gray-400">Sport: 1</p>
+                <p class="text-gray-400">League: 271</p>
+
+                <div class="flex justify-center items-center mt-5">
+                    <div class="flex items-center space-x-4">
+                                                                                    <img src="https://cdn.sportmonks.com/images/soccer/teams/26/2394.png" alt="Nordsjælland Image" class="w-12 h-12 rounded-full">
+                                                                                                                <img src="https://cdn.sportmonks.com/images/soccer/teams/21/85.png" alt="FC Copenhagen Image" class="w-12 h-12 rounded-full">
+                                                                        </div>
+                </div>
+
+                <div class="mt-4">
+                                            <div>
+                            <!-- Include other event details as needed -->
+                            <p class="text-white font-bold">2023-11-12 15:00:00</p>
+                        </div>
+                                            <div>
+                            <!-- Include other event details as needed -->
+                            <p class="text-white font-bold">2023-11-12 11:00:00</p>
+                        </div>
+                                    </div>
+            </div>
+
+            <div class="right-column">
+                <p class="text-white font-bold mt-4">Team Information:</p>
+
+                                    <div class="flex items-center mt-2 cursor-pointer">
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/26/2394.png" alt="Nordsjælland" class="w-8 h-8 mr-2 rounded-full">
+                        <p class="text-white">Nordsjælland</p>
+                    </div>
+                    <!-- Additional Information -->
+                    <div class="additional-info hidden bg-gray-800 p-2 rounded mt-2">
+                        <p class="text-white">Founded: 2003</p>
+                        <p class="text-white">Name: Nordsjælland</p>
+                        <p class="text-white">Short: FCN</p>
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/26/2394.png" alt="Nordsjælland">
+                        <p class="text-white">Last played at: 2023-11-12 15:00:00</p>
+                    </div>
+                                    <div class="flex items-center mt-2 cursor-pointer">
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/21/85.png" alt="FC Copenhagen" class="w-8 h-8 mr-2 rounded-full">
+                        <p class="text-white">FC Copenhagen</p>
+                    </div>
+                    <!-- Additional Information -->
+                    <div class="additional-info hidden bg-gray-800 p-2 rounded mt-2">
+                        <p class="text-white">Founded: 1992</p>
+                        <p class="text-white">Name: FC Copenhagen</p>
+                        <p class="text-white">Short: COP</p>
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/21/85.png" alt="FC Copenhagen">
+                        <p class="text-white">Last played at: 2023-11-12 11:00:00</p>
+                    </div>
+                                <button class="show-more-btn text-white mt-4" style="background-color: red; color: white; padding: 15px; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                border-radius:30px">Show More</button>
+            </div>
+        </div>
+            <div class="mb-8 p-6 bg-gray-700 rounded shadow-md two-column" style="margin: 50px;">
+            <div class="left-column">
+                <p class="text-xl text-white font-bold">Fixture ID: 216283</p>
+                <p class="text-gray-400">Sport: 1</p>
+                <p class="text-gray-400">League: 271</p>
+
+                <div class="flex justify-center items-center mt-5">
+                    <div class="flex items-center space-x-4">
+                                                                                    <img src="https://cdn.sportmonks.com/images/soccer/teams/19/211.png" alt="Horsens Image" class="w-12 h-12 rounded-full">
+                                                                                                                <img src="https://cdn.sportmonks.com/images/soccer/teams/29/1789.png" alt="OB Image" class="w-12 h-12 rounded-full">
+                                                                        </div>
+                </div>
+
+                <div class="mt-4">
+                                            <div>
+                            <!-- Include other event details as needed -->
+                            <p class="text-white font-bold">2023-11-10 18:00:00</p>
+                        </div>
+                                            <div>
+                            <!-- Include other event details as needed -->
+                            <p class="text-white font-bold">2023-11-12 17:00:00</p>
+                        </div>
+                                    </div>
+            </div>
+
+            <div class="right-column">
+                <p class="text-white font-bold mt-4">Team Information:</p>
+
+                                    <div class="flex items-center mt-2 cursor-pointer">
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/19/211.png" alt="Horsens" class="w-8 h-8 mr-2 rounded-full">
+                        <p class="text-white">Horsens</p>
+                    </div>
+                    <!-- Additional Information -->
+                    <div class="additional-info hidden bg-gray-800 p-2 rounded mt-2">
+                        <p class="text-white">Founded: 1994</p>
+                        <p class="text-white">Name: Horsens</p>
+                        <p class="text-white">Short: ACH</p>
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/19/211.png" alt="Horsens">
+                        <p class="text-white">Last played at: 2023-11-10 18:00:00</p>
+                    </div>
+                                    <div class="flex items-center mt-2 cursor-pointer">
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/29/1789.png" alt="OB" class="w-8 h-8 mr-2 rounded-full">
+                        <p class="text-white">OB</p>
+                    </div>
+                    <!-- Additional Information -->
+                    <div class="additional-info hidden bg-gray-800 p-2 rounded mt-2">
+                        <p class="text-white">Founded: 1889</p>
+                        <p class="text-white">Name: OB</p>
+                        <p class="text-white">Short: ODE</p>
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/29/1789.png" alt="OB">
+                        <p class="text-white">Last played at: 2023-11-12 17:00:00</p>
+                    </div>
+                                <button class="show-more-btn text-white mt-4" style="background-color: red; color: white; padding: 15px; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                border-radius:30px">Show More</button>
+            </div>
+        </div>
+            <div class="mb-8 p-6 bg-gray-700 rounded shadow-md two-column" style="margin: 50px;">
+            <div class="left-column">
+                <p class="text-xl text-white font-bold">Fixture ID: 216284</p>
+                <p class="text-gray-400">Sport: 1</p>
+                <p class="text-gray-400">League: 271</p>
+
+                <div class="flex justify-center items-center mt-5">
+                    <div class="flex items-center space-x-4">
+                                                                                    <img src="https://cdn.sportmonks.com/images/soccer/teams/27/1371.png" alt="Esbjerg Image" class="w-12 h-12 rounded-full">
+                                                                                                                <img src="https://cdn.sportmonks.com/images/soccer/teams/5/293.png" alt="Brøndby Image" class="w-12 h-12 rounded-full">
+                                                                        </div>
+                </div>
+
+                <div class="mt-4">
+                                            <div>
+                            <!-- Include other event details as needed -->
+                            <p class="text-white font-bold">2023-11-18 12:00:00</p>
+                        </div>
+                                            <div>
+                            <!-- Include other event details as needed -->
+                            <p class="text-white font-bold">2023-11-12 11:00:00</p>
+                        </div>
+                                    </div>
+            </div>
+
+            <div class="right-column">
+                <p class="text-white font-bold mt-4">Team Information:</p>
+
+                                    <div class="flex items-center mt-2 cursor-pointer">
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/27/1371.png" alt="Esbjerg" class="w-8 h-8 mr-2 rounded-full">
+                        <p class="text-white">Esbjerg</p>
+                    </div>
+                    <!-- Additional Information -->
+                    <div class="additional-info hidden bg-gray-800 p-2 rounded mt-2">
+                        <p class="text-white">Founded: 1924</p>
+                        <p class="text-white">Name: Esbjerg</p>
+                        <p class="text-white">Short: ESB</p>
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/27/1371.png" alt="Esbjerg">
+                        <p class="text-white">Last played at: 2023-11-18 12:00:00</p>
+                    </div>
+                                    <div class="flex items-center mt-2 cursor-pointer">
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/5/293.png" alt="Brøndby" class="w-8 h-8 mr-2 rounded-full">
+                        <p class="text-white">Brøndby</p>
+                    </div>
+                    <!-- Additional Information -->
+                    <div class="additional-info hidden bg-gray-800 p-2 rounded mt-2">
+                        <p class="text-white">Founded: 1964</p>
+                        <p class="text-white">Name: Brøndby</p>
+                        <p class="text-white">Short: BIF</p>
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/5/293.png" alt="Brøndby">
+                        <p class="text-white">Last played at: 2023-11-12 11:00:00</p>
+                    </div>
+                                <button class="show-more-btn text-white mt-4" style="background-color: red; color: white; padding: 15px; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                border-radius:30px">Show More</button>
+            </div>
+        </div>
+            <div class="mb-8 p-6 bg-gray-700 rounded shadow-md two-column" style="margin: 50px;">
+            <div class="left-column">
+                <p class="text-xl text-white font-bold">Fixture ID: 216285</p>
+                <p class="text-gray-400">Sport: 1</p>
+                <p class="text-gray-400">League: 271</p>
+
+                <div class="flex justify-center items-center mt-5">
+                    <div class="flex items-center space-x-4">
+                                                                                    <img src="https://cdn.sportmonks.com/images/soccer/teams/25/2905.png" alt="AGF Image" class="w-12 h-12 rounded-full">
+                                                                                                                <img src="https://cdn.sportmonks.com/images/soccer/teams/15/2447.png" alt="Viborg Image" class="w-12 h-12 rounded-full">
+                                                                        </div>
+                </div>
+
+                <div class="mt-4">
+                                            <div>
+                            <!-- Include other event details as needed -->
+                            <p class="text-white font-bold">2023-11-12 19:00:00</p>
+                        </div>
+                                            <div>
+                            <!-- Include other event details as needed -->
+                            <p class="text-white font-bold">2023-11-12 19:00:00</p>
+                        </div>
+                                    </div>
+            </div>
+
+            <div class="right-column">
+                <p class="text-white font-bold mt-4">Team Information:</p>
+
+                                    <div class="flex items-center mt-2 cursor-pointer">
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/25/2905.png" alt="AGF" class="w-8 h-8 mr-2 rounded-full">
+                        <p class="text-white">AGF</p>
+                    </div>
+                    <!-- Additional Information -->
+                    <div class="additional-info hidden bg-gray-800 p-2 rounded mt-2">
+                        <p class="text-white">Founded: 1902</p>
+                        <p class="text-white">Name: AGF</p>
+                        <p class="text-white">Short: AGF</p>
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/25/2905.png" alt="AGF">
+                        <p class="text-white">Last played at: 2023-11-12 19:00:00</p>
+                    </div>
+                                    <div class="flex items-center mt-2 cursor-pointer">
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/15/2447.png" alt="Viborg" class="w-8 h-8 mr-2 rounded-full">
+                        <p class="text-white">Viborg</p>
+                    </div>
+                    <!-- Additional Information -->
+                    <div class="additional-info hidden bg-gray-800 p-2 rounded mt-2">
+                        <p class="text-white">Founded: 1896</p>
+                        <p class="text-white">Name: Viborg</p>
+                        <p class="text-white">Short: </p>
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/15/2447.png" alt="Viborg">
+                        <p class="text-white">Last played at: 2023-11-12 19:00:00</p>
+                    </div>
+                                <button class="show-more-btn text-white mt-4" style="background-color: red; color: white; padding: 15px; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                border-radius:30px">Show More</button>
+            </div>
+        </div>
+            <div class="mb-8 p-6 bg-gray-700 rounded shadow-md two-column" style="margin: 50px;">
+            <div class="left-column">
+                <p class="text-xl text-white font-bold">Fixture ID: 216286</p>
+                <p class="text-gray-400">Sport: 1</p>
+                <p class="text-gray-400">League: 271</p>
+
+                <div class="flex justify-center items-center mt-5">
+                    <div class="flex items-center space-x-4">
+                                                                                    <img src="https://cdn.sportmonks.com/images/soccer/teams/5/293.png" alt="Brøndby Image" class="w-12 h-12 rounded-full">
+                                                                                                                <img src="https://cdn.sportmonks.com/images/soccer/teams/28/1020.png" alt="AaB Image" class="w-12 h-12 rounded-full">
+                                                                        </div>
+                </div>
+
+                <div class="mt-4">
+                                            <div>
+                            <!-- Include other event details as needed -->
+                            <p class="text-white font-bold">2023-11-12 11:00:00</p>
+                        </div>
+                                            <div>
+                            <!-- Include other event details as needed -->
+                            <p class="text-white font-bold">2023-11-12 12:00:00</p>
+                        </div>
+                                    </div>
+            </div>
+
+            <div class="right-column">
+                <p class="text-white font-bold mt-4">Team Information:</p>
+
+                                    <div class="flex items-center mt-2 cursor-pointer">
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/5/293.png" alt="Brøndby" class="w-8 h-8 mr-2 rounded-full">
+                        <p class="text-white">Brøndby</p>
+                    </div>
+                    <!-- Additional Information -->
+                    <div class="additional-info hidden bg-gray-800 p-2 rounded mt-2">
+                        <p class="text-white">Founded: 1964</p>
+                        <p class="text-white">Name: Brøndby</p>
+                        <p class="text-white">Short: BIF</p>
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/5/293.png" alt="Brøndby">
+                        <p class="text-white">Last played at: 2023-11-12 11:00:00</p>
+                    </div>
+                                    <div class="flex items-center mt-2 cursor-pointer">
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/28/1020.png" alt="AaB" class="w-8 h-8 mr-2 rounded-full">
+                        <p class="text-white">AaB</p>
+                    </div>
+                    <!-- Additional Information -->
+                    <div class="additional-info hidden bg-gray-800 p-2 rounded mt-2">
+                        <p class="text-white">Founded: 1885</p>
+                        <p class="text-white">Name: AaB</p>
+                        <p class="text-white">Short: AAB</p>
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/28/1020.png" alt="AaB">
+                        <p class="text-white">Last played at: 2023-11-12 12:00:00</p>
+                    </div>
+                                <button class="show-more-btn text-white mt-4" style="background-color: red; color: white; padding: 15px; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                border-radius:30px">Show More</button>
+            </div>
+        </div>
+            <div class="mb-8 p-6 bg-gray-700 rounded shadow-md two-column" style="margin: 50px;">
+            <div class="left-column">
+                <p class="text-xl text-white font-bold">Fixture ID: 216287</p>
+                <p class="text-gray-400">Sport: 1</p>
+                <p class="text-gray-400">League: 271</p>
+
+                <div class="flex justify-center items-center mt-5">
+                    <div class="flex items-center space-x-4">
+                                                                                    <img src="https://cdn.sportmonks.com/images/soccer/teams/15/2447.png" alt="Viborg Image" class="w-12 h-12 rounded-full">
+                                                                                                                <img src="https://cdn.sportmonks.com/images/soccer/teams/6/390.png" alt="SønderjyskE Image" class="w-12 h-12 rounded-full">
+                                                                        </div>
+                </div>
+
+                <div class="mt-4">
+                                            <div>
+                            <!-- Include other event details as needed -->
+                            <p class="text-white font-bold">2023-11-12 19:00:00</p>
+                        </div>
+                                            <div>
+                            <!-- Include other event details as needed -->
+                            <p class="text-white font-bold">2023-11-10 18:00:00</p>
+                        </div>
+                                    </div>
+            </div>
+
+            <div class="right-column">
+                <p class="text-white font-bold mt-4">Team Information:</p>
+
+                                    <div class="flex items-center mt-2 cursor-pointer">
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/15/2447.png" alt="Viborg" class="w-8 h-8 mr-2 rounded-full">
+                        <p class="text-white">Viborg</p>
+                    </div>
+                    <!-- Additional Information -->
+                    <div class="additional-info hidden bg-gray-800 p-2 rounded mt-2">
+                        <p class="text-white">Founded: 1896</p>
+                        <p class="text-white">Name: Viborg</p>
+                        <p class="text-white">Short: </p>
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/15/2447.png" alt="Viborg">
+                        <p class="text-white">Last played at: 2023-11-12 19:00:00</p>
+                    </div>
+                                    <div class="flex items-center mt-2 cursor-pointer">
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/6/390.png" alt="SønderjyskE" class="w-8 h-8 mr-2 rounded-full">
+                        <p class="text-white">SønderjyskE</p>
+                    </div>
+                    <!-- Additional Information -->
+                    <div class="additional-info hidden bg-gray-800 p-2 rounded mt-2">
+                        <p class="text-white">Founded: 2004</p>
+                        <p class="text-white">Name: SønderjyskE</p>
+                        <p class="text-white">Short: SON</p>
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/6/390.png" alt="SønderjyskE">
+                        <p class="text-white">Last played at: 2023-11-10 18:00:00</p>
+                    </div>
+                                <button class="show-more-btn text-white mt-4" style="background-color: red; color: white; padding: 15px; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                border-radius:30px">Show More</button>
+            </div>
+        </div>
+            <div class="mb-8 p-6 bg-gray-700 rounded shadow-md two-column" style="margin: 50px;">
+            <div class="left-column">
+                <p class="text-xl text-white font-bold">Fixture ID: 216288</p>
+                <p class="text-gray-400">Sport: 1</p>
+                <p class="text-gray-400">League: 271</p>
+
+                <div class="flex justify-center items-center mt-5">
+                    <div class="flex items-center space-x-4">
+                                                                                    <img src="https://cdn.sportmonks.com/images/soccer/teams/29/1789.png" alt="OB Image" class="w-12 h-12 rounded-full">
+                                                                                                                <img src="https://cdn.sportmonks.com/images/soccer/teams/26/2394.png" alt="Nordsjælland Image" class="w-12 h-12 rounded-full">
+                                                                        </div>
+                </div>
+
+                <div class="mt-4">
+                                            <div>
+                            <!-- Include other event details as needed -->
+                            <p class="text-white font-bold">2023-11-12 17:00:00</p>
+                        </div>
+                                            <div>
+                            <!-- Include other event details as needed -->
+                            <p class="text-white font-bold">2023-11-12 15:00:00</p>
+                        </div>
+                                    </div>
+            </div>
+
+            <div class="right-column">
+                <p class="text-white font-bold mt-4">Team Information:</p>
+
+                                    <div class="flex items-center mt-2 cursor-pointer">
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/29/1789.png" alt="OB" class="w-8 h-8 mr-2 rounded-full">
+                        <p class="text-white">OB</p>
+                    </div>
+                    <!-- Additional Information -->
+                    <div class="additional-info hidden bg-gray-800 p-2 rounded mt-2">
+                        <p class="text-white">Founded: 1889</p>
+                        <p class="text-white">Name: OB</p>
+                        <p class="text-white">Short: ODE</p>
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/29/1789.png" alt="OB">
+                        <p class="text-white">Last played at: 2023-11-12 17:00:00</p>
+                    </div>
+                                    <div class="flex items-center mt-2 cursor-pointer">
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/26/2394.png" alt="Nordsjælland" class="w-8 h-8 mr-2 rounded-full">
+                        <p class="text-white">Nordsjælland</p>
+                    </div>
+                    <!-- Additional Information -->
+                    <div class="additional-info hidden bg-gray-800 p-2 rounded mt-2">
+                        <p class="text-white">Founded: 2003</p>
+                        <p class="text-white">Name: Nordsjælland</p>
+                        <p class="text-white">Short: FCN</p>
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/26/2394.png" alt="Nordsjælland">
+                        <p class="text-white">Last played at: 2023-11-12 15:00:00</p>
+                    </div>
+                                <button class="show-more-btn text-white mt-4" style="background-color: red; color: white; padding: 15px; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                border-radius:30px">Show More</button>
+            </div>
+        </div>
+            <div class="mb-8 p-6 bg-gray-700 rounded shadow-md two-column" style="margin: 50px;">
+            <div class="left-column">
+                <p class="text-xl text-white font-bold">Fixture ID: 216289</p>
+                <p class="text-gray-400">Sport: 1</p>
+                <p class="text-gray-400">League: 271</p>
+
+                <div class="flex justify-center items-center mt-5">
+                    <div class="flex items-center space-x-4">
+                                                                                    <img src="https://cdn.sportmonks.com/images/soccer/teams/11/939.png" alt="Midtjylland Image" class="w-12 h-12 rounded-full">
+                                                                                                                <img src="https://cdn.sportmonks.com/images/soccer/teams/19/211.png" alt="Horsens Image" class="w-12 h-12 rounded-full">
+                                                                        </div>
+                </div>
+
+                <div class="mt-4">
+                                            <div>
+                            <!-- Include other event details as needed -->
+                            <p class="text-white font-bold">2023-11-12 15:00:00</p>
+                        </div>
+                                            <div>
+                            <!-- Include other event details as needed -->
+                            <p class="text-white font-bold">2023-11-10 18:00:00</p>
+                        </div>
+                                    </div>
+            </div>
+
+            <div class="right-column">
+                <p class="text-white font-bold mt-4">Team Information:</p>
+
+                                    <div class="flex items-center mt-2 cursor-pointer">
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/11/939.png" alt="Midtjylland" class="w-8 h-8 mr-2 rounded-full">
+                        <p class="text-white">Midtjylland</p>
+                    </div>
+                    <!-- Additional Information -->
+                    <div class="additional-info hidden bg-gray-800 p-2 rounded mt-2">
+                        <p class="text-white">Founded: 1999</p>
+                        <p class="text-white">Name: Midtjylland</p>
+                        <p class="text-white">Short: FCM</p>
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/11/939.png" alt="Midtjylland">
+                        <p class="text-white">Last played at: 2023-11-12 15:00:00</p>
+                    </div>
+                                    <div class="flex items-center mt-2 cursor-pointer">
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/19/211.png" alt="Horsens" class="w-8 h-8 mr-2 rounded-full">
+                        <p class="text-white">Horsens</p>
+                    </div>
+                    <!-- Additional Information -->
+                    <div class="additional-info hidden bg-gray-800 p-2 rounded mt-2">
+                        <p class="text-white">Founded: 1994</p>
+                        <p class="text-white">Name: Horsens</p>
+                        <p class="text-white">Short: ACH</p>
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/19/211.png" alt="Horsens">
+                        <p class="text-white">Last played at: 2023-11-10 18:00:00</p>
+                    </div>
+                                <button class="show-more-btn text-white mt-4" style="background-color: red; color: white; padding: 15px; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                border-radius:30px">Show More</button>
+            </div>
+        </div>
+            <div class="mb-8 p-6 bg-gray-700 rounded shadow-md two-column" style="margin: 50px;">
+            <div class="left-column">
+                <p class="text-xl text-white font-bold">Fixture ID: 216290</p>
+                <p class="text-gray-400">Sport: 1</p>
+                <p class="text-gray-400">League: 271</p>
+
+                <div class="flex justify-center items-center mt-5">
+                    <div class="flex items-center space-x-4">
+                                                                                    <img src="https://cdn.sportmonks.com/images/soccer/teams/21/85.png" alt="FC Copenhagen Image" class="w-12 h-12 rounded-full">
+                                                                                                                <img src="https://cdn.sportmonks.com/images/soccer/teams/25/2905.png" alt="AGF Image" class="w-12 h-12 rounded-full">
+                                                                        </div>
+                </div>
+
+                <div class="mt-4">
+                                            <div>
+                            <!-- Include other event details as needed -->
+                            <p class="text-white font-bold">2023-11-12 11:00:00</p>
+                        </div>
+                                            <div>
+                            <!-- Include other event details as needed -->
+                            <p class="text-white font-bold">2023-11-12 19:00:00</p>
+                        </div>
+                                    </div>
+            </div>
+
+            <div class="right-column">
+                <p class="text-white font-bold mt-4">Team Information:</p>
+
+                                    <div class="flex items-center mt-2 cursor-pointer">
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/21/85.png" alt="FC Copenhagen" class="w-8 h-8 mr-2 rounded-full">
+                        <p class="text-white">FC Copenhagen</p>
+                    </div>
+                    <!-- Additional Information -->
+                    <div class="additional-info hidden bg-gray-800 p-2 rounded mt-2">
+                        <p class="text-white">Founded: 1992</p>
+                        <p class="text-white">Name: FC Copenhagen</p>
+                        <p class="text-white">Short: COP</p>
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/21/85.png" alt="FC Copenhagen">
+                        <p class="text-white">Last played at: 2023-11-12 11:00:00</p>
+                    </div>
+                                    <div class="flex items-center mt-2 cursor-pointer">
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/25/2905.png" alt="AGF" class="w-8 h-8 mr-2 rounded-full">
+                        <p class="text-white">AGF</p>
+                    </div>
+                    <!-- Additional Information -->
+                    <div class="additional-info hidden bg-gray-800 p-2 rounded mt-2">
+                        <p class="text-white">Founded: 1902</p>
+                        <p class="text-white">Name: AGF</p>
+                        <p class="text-white">Short: AGF</p>
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/25/2905.png" alt="AGF">
+                        <p class="text-white">Last played at: 2023-11-12 19:00:00</p>
+                    </div>
+                                <button class="show-more-btn text-white mt-4" style="background-color: red; color: white; padding: 15px; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                border-radius:30px">Show More</button>
+            </div>
+        </div>
+            <div class="mb-8 p-6 bg-gray-700 rounded shadow-md two-column" style="margin: 50px;">
+            <div class="left-column">
+                <p class="text-xl text-white font-bold">Fixture ID: 216291</p>
+                <p class="text-gray-400">Sport: 1</p>
+                <p class="text-gray-400">League: 271</p>
+
+                <div class="flex justify-center items-center mt-5">
+                    <div class="flex items-center space-x-4">
+                                                                                    <img src="https://cdn.sportmonks.com/images/soccer/teams/27/1371.png" alt="Esbjerg Image" class="w-12 h-12 rounded-full">
+                                                                                                                <img src="https://cdn.sportmonks.com/images/soccer/teams/22/86.png" alt="Silkeborg Image" class="w-12 h-12 rounded-full">
+                                                                        </div>
+                </div>
+
+                <div class="mt-4">
+                                            <div>
+                            <!-- Include other event details as needed -->
+                            <p class="text-white font-bold">2023-11-18 12:00:00</p>
+                        </div>
+                                            <div>
+                            <!-- Include other event details as needed -->
+                            <p class="text-white font-bold">2023-11-10 18:00:00</p>
+                        </div>
+                                    </div>
+            </div>
+
+            <div class="right-column">
+                <p class="text-white font-bold mt-4">Team Information:</p>
+
+                                    <div class="flex items-center mt-2 cursor-pointer">
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/27/1371.png" alt="Esbjerg" class="w-8 h-8 mr-2 rounded-full">
+                        <p class="text-white">Esbjerg</p>
+                    </div>
+                    <!-- Additional Information -->
+                    <div class="additional-info hidden bg-gray-800 p-2 rounded mt-2">
+                        <p class="text-white">Founded: 1924</p>
+                        <p class="text-white">Name: Esbjerg</p>
+                        <p class="text-white">Short: ESB</p>
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/27/1371.png" alt="Esbjerg">
+                        <p class="text-white">Last played at: 2023-11-18 12:00:00</p>
+                    </div>
+                                    <div class="flex items-center mt-2 cursor-pointer">
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/22/86.png" alt="Silkeborg" class="w-8 h-8 mr-2 rounded-full">
+                        <p class="text-white">Silkeborg</p>
+                    </div>
+                    <!-- Additional Information -->
+                    <div class="additional-info hidden bg-gray-800 p-2 rounded mt-2">
+                        <p class="text-white">Founded: 1917</p>
+                        <p class="text-white">Name: Silkeborg</p>
+                        <p class="text-white">Short: SIL</p>
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/22/86.png" alt="Silkeborg">
+                        <p class="text-white">Last played at: 2023-11-10 18:00:00</p>
+                    </div>
+                                <button class="show-more-btn text-white mt-4" style="background-color: red; color: white; padding: 15px; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                border-radius:30px">Show More</button>
+            </div>
+        </div>
+            <div class="mb-8 p-6 bg-gray-700 rounded shadow-md two-column" style="margin: 50px;">
+            <div class="left-column">
+                <p class="text-xl text-white font-bold">Fixture ID: 216292</p>
+                <p class="text-gray-400">Sport: 1</p>
+                <p class="text-gray-400">League: 271</p>
+
+                <div class="flex justify-center items-center mt-5">
+                    <div class="flex items-center space-x-4">
+                                                                                    <img src="https://cdn.sportmonks.com/images/soccer/teams/25/2905.png" alt="AGF Image" class="w-12 h-12 rounded-full">
+                                                                                                                <img src="https://cdn.sportmonks.com/images/soccer/teams/29/1789.png" alt="OB Image" class="w-12 h-12 rounded-full">
+                                                                        </div>
+                </div>
+
+                <div class="mt-4">
+                                            <div>
+                            <!-- Include other event details as needed -->
+                            <p class="text-white font-bold">2023-11-12 19:00:00</p>
+                        </div>
+                                            <div>
+                            <!-- Include other event details as needed -->
+                            <p class="text-white font-bold">2023-11-12 17:00:00</p>
+                        </div>
+                                    </div>
+            </div>
+
+            <div class="right-column">
+                <p class="text-white font-bold mt-4">Team Information:</p>
+
+                                    <div class="flex items-center mt-2 cursor-pointer">
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/25/2905.png" alt="AGF" class="w-8 h-8 mr-2 rounded-full">
+                        <p class="text-white">AGF</p>
+                    </div>
+                    <!-- Additional Information -->
+                    <div class="additional-info hidden bg-gray-800 p-2 rounded mt-2">
+                        <p class="text-white">Founded: 1902</p>
+                        <p class="text-white">Name: AGF</p>
+                        <p class="text-white">Short: AGF</p>
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/25/2905.png" alt="AGF">
+                        <p class="text-white">Last played at: 2023-11-12 19:00:00</p>
+                    </div>
+                                    <div class="flex items-center mt-2 cursor-pointer">
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/29/1789.png" alt="OB" class="w-8 h-8 mr-2 rounded-full">
+                        <p class="text-white">OB</p>
+                    </div>
+                    <!-- Additional Information -->
+                    <div class="additional-info hidden bg-gray-800 p-2 rounded mt-2">
+                        <p class="text-white">Founded: 1889</p>
+                        <p class="text-white">Name: OB</p>
+                        <p class="text-white">Short: ODE</p>
+                        <img src="https://cdn.sportmonks.com/images/soccer/teams/29/1789.png" alt="OB">
+                        <p class="text-white">Last played at: 2023-11-12 17:00:00</p>
+                    </div>
+                                <button class="show-more-btn text-white mt-4" style="background-color: red; color: white; padding: 15px; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                border-radius:30px">Show More</button>
+            </div>
+        </div>
+    
+    <footer class="bg-dark rounded-lg shadow m-4 dark:bg-dark-800">
+        <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
+          <span class="text-sm text-gray-500 sm:text-center white:text-white-400" style="color: white;">© 2023 <a href="index.html" class="hover:underline">Uniquesports24™</a>. All Rights Reserved.
+        </span>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.min.js" defer></script>
+    <!-- Bootstrap 5 JS and Popper.js CDN links (add these at the end of the body) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
